@@ -1,6 +1,6 @@
 # laravel-socialite-mediawiki
 
-## This is a temporary copy of [https://sr.ht/~taavi/laravel-socialite-mediawiki/](taavi/laravel-socialite-mediawiki) created due to a sourcehut outage
+## This is a temporary copy of [taavi/laravel-socialite-mediawiki](https://sr.ht/~taavi/laravel-socialite-mediawiki/) created due to a sourcehut outage
 
 
 This package provides a Socialite service that can be used to log in
