@@ -1,0 +1,16 @@
+image: debian/bullseye
+packages:
+  - composer
+  # for composer to efficiently extract things
+  - unzip
+  # needed by codesniffer
+  - php-xml
+sources:
+  - https://git.sr.ht/~taavi/laravel-socialite-mediawiki
+tasks:
+  - setup: |
+      cd laravel-socialite-mediawiki
+      composer install
+  - test: |
+      cd laravel-socialite-mediawiki
+      composer test
